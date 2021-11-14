@@ -34,7 +34,7 @@
     <p>Nome</p>
     <input type="text" id="nome" class="form-control">
 
-    <p>CEP</p>
+    <p>mostrando CEP</p>
     <input type="text" id="cep" class="form-control col-3">
 
     <p class="cep">Cidade</p>
@@ -53,7 +53,7 @@
         <option value="GO">Goiás</option>
         <option value="MA">Maranhão</option>
         <option value="MT">Mato Grosso</option>
-        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MS">Mato l Grosso do Sul</option>
         <option value="MG">Minas Gerais</option>
         <option value="PA">Pará</option>
         <option value="PB">Paraíba</option>
@@ -147,19 +147,19 @@
 
                 $(document).ready(function() {
                     $('#example').DataTable({
-                       language: {
-                           "paginate": {
-                            "next": "Próximo",
-                            "previous": "Anterior",
-                            "first": "Primeiro",
-                            "last": "Último"
+                        language: {
+                            "paginate": {
+                                // "next": "Próximo",
+                                "previous": "Anterior",
+                                "first": "Primeiro",
+                                "last": "Último"
                             },
                             "info": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
                             "infoEmpty": "Mostrando 0 até 0 de 0 registros",
                             "search": "Pesquisar",
                             "lengthMenu": "Exibir _MENU_ resultados"
-                       },
-                       dom: 'Bfrtip',
+                        },
+                        dom: 'Bfrtip',
                         buttons: [
                             'copy',
                             'excel',
