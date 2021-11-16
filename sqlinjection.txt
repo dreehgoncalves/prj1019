@@ -1,0 +1,2 @@
+select * from user where userlogin == '' or 1=1;/*
+and userpass== '*/;
